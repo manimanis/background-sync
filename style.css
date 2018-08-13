@@ -41,3 +41,34 @@
 .switch > input:checked + .slider::before {
     transform: translateX(50px);
 }
+
+.fab {
+    position: fixed;
+    right: 2em;
+    bottom: 2em;
+    background-color: #768fff;
+    border-radius: 32px;
+}
+
+.fab > button {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #142574;
+    color: #fff;
+    font-size: 28px;
+    border: 0;
+    box-shadow: 0 0 20px #000;
+    cursor: pointer;
+}
+
+.fab > span {
+    /* display: none; */
+    padding: 0 1em;
+}
+
+.fab:hover > span {
+    display: inline-block;
+    
+}
